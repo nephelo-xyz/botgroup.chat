@@ -1,6 +1,5 @@
 name = "botgroupchat"
 compatibility_date = "2026-05-19"
-compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "dist"
 
 [[kv_namespaces]]
@@ -9,6 +8,6 @@ id = "122e7b879d21493aab6eaa23956b8ed8"
 preview_id = "122e7b879d21493aab6eaa23956b8ed8"  # 本地开发环境使用
 
 [[d1_databases]]
-binding = "bgdb" # available in your Worker on env.DB
-database_name = "friends"
-database_id = "f68e9fa5-4aea-45db-9516-2d7052e936fa"
+binding = "bgkv_nephelo" # available in your Worker on env.DB
+database_name = "bgkv_nephelo"
+database_id = "e82c22e6-bdd2-4662-bf7a-291f8ee1a345"
