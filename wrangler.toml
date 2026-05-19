@@ -9,5 +9,5 @@ preview_id = "122e7b879d21493aab6eaa23956b8ed8"  # 本地开发环境使用
 
 [[d1_databases]]
 binding = "bgkv_nephelo" # available in your Worker on env.DB
-database_name = "bgkv_nephelo"
+database_name = "friends"
 database_id = "e82c22e6-bdd2-4662-bf7a-291f8ee1a345"
